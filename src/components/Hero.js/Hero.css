@@ -1,0 +1,238 @@
+.hero__container {
+  height: 38rem;
+  margin-bottom: 10rem;
+}
+
+.triangle__image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -999;
+  height: 100%;
+}
+
+#introCode {
+  position: absolute;
+  top: 40%;
+  left: 78%;
+  transform: translate(-78%, -40%);
+  z-index: -998;
+  border-radius: 20px;
+  width: 25rem;
+  background: var(--bg__gradient__color);
+}
+
+.intro__container {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translate(-30%, -50%);
+}
+
+.text__one {
+  font-size: 1.2rem;
+}
+
+.text__two {
+  font-size: 1.5rem;
+}
+
+.text__name {
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: Montserrat, sans-serif;
+}
+
+.btn {
+  width: fit-content;
+  margin-top: 1.5rem;
+  padding: 0.8rem;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  outline: none;
+  border: 0;
+  background: linear-gradient(135deg, #2adf97, #27d670);
+  cursor: pointer;
+  transition: 0.4s ease-in;
+}
+
+.intro__container button:hover {
+  /* font-size: 20px; */
+  background: linear-gradient(135deg, #2ecf71, #22d18b);
+}
+
+.social__icons {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+  font-size: 2rem;
+}
+
+.social__icon {
+  margin-right: 1.5rem;
+  color: var(--primary__color);
+  cursor: pointer;
+  transition: color 0.2s ease-out;
+}
+
+.social__icon:hover {
+  color: var(--text__color);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .hero__container {
+    margin-bottom: 15rem;
+  }
+
+  .triangle__image {
+    height: 60%;
+    width: 70%;
+  }
+
+  #introCode {
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    z-index: -998;
+    border-radius: 20px;
+    width: 18rem;
+  }
+
+  .intro__container {
+    position: absolute;
+    top: 65%;
+    left: 35%;
+    transform: translate(-35%, -65%);
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .hero__container {
+    margin-bottom: 18rem;
+  }
+
+  .triangle__image {
+    height: 60%;
+    width: 70%;
+  }
+
+  #introCode {
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    z-index: -998;
+    border-radius: 20px;
+    width: 23rem;
+  }
+
+  .intro__container {
+    position: absolute;
+    top: 65%;
+    left: 35%;
+    transform: translate(-35%, -65%);
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .hero__container {
+    margin-bottom: 20rem;
+  }
+
+  .triangle__image {
+    height: 80%;
+    width: 70%;
+  }
+
+  #introCode {
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    z-index: -998;
+    border-radius: 20px;
+    width: 23rem;
+  }
+
+  .intro__container {
+    position: absolute;
+    top: 75%;
+    left: 45%;
+    transform: translate(-45%, -75%);
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .triangle__image {
+    height: 80%;
+    width: 70%;
+  }
+
+  #introCode {
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    z-index: -998;
+    border-radius: 20px;
+    width: 23rem;
+  }
+
+  .intro__container {
+    position: absolute;
+    top: 75%;
+    left: 45%;
+    transform: translate(-45%, -75%);
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .triangle__image {
+    height: 100%;
+  }
+
+  #introCode {
+    top: 55%;
+    left: 70%;
+    transform: translate(-70%, -55%);
+    z-index: -998;
+    border-radius: 20px;
+    width: 23rem;
+  }
+
+  .intro__container {
+    position: absolute;
+    top: 55%;
+    left: 15%;
+    transform: translate(-30%, -55%);
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .triangle__image {
+    height: 100%;
+    width: auto;
+  }
+  #introCode {
+    position: absolute;
+    top: 40%;
+    left: 78%;
+    transform: translate(-78%, -40%);
+    z-index: -998;
+    border-radius: 20px;
+    width: 25rem;
+    background: var(--bg__gradient__color);
+  }
+
+  .intro__container {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-30%, -50%);
+  }
+}

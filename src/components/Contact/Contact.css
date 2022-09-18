@@ -1,0 +1,79 @@
+.contact__section {
+  position: relative;
+  margin-bottom: 10rem;
+}
+
+.overlay__contact {
+  background: var(--main__gradient);
+  height: 430px;
+  width: calc(100vw - 6rem);
+  border-radius: 20px;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -65%);
+  z-index: -1;
+}
+
+.contact__form {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg__gradient__color);
+  padding: 2rem;
+  border-radius: 20px;
+  margin: 3rem;
+}
+
+.contact__form div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input {
+  outline: none;
+  border: 0;
+  background: var(--input__bg__color);
+  color: var(--text__color);
+  padding: 0.9rem;
+  border-radius: 10px;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+input:nth-child(1) {
+  margin-right: 2rem;
+}
+
+textarea {
+  outline: none;
+  border: 0;
+  background: var(--input__bg__color);
+  color: var(--text__color);
+  padding: 0.9rem;
+  border-radius: 10px;
+  font-size: 18px;
+  margin-top: 2rem;
+  font-weight: 200;
+}
+
+.contact__form button {
+  position: relative;
+  left: calc(100% - 4rem);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .contact__form div {
+    flex-direction: column;
+  }
+
+  .contact__form div input:nth-child(2) {
+    margin-top: 2rem;
+  }
+
+  .overlay__contact {
+    height: 508px;
+  }
+}

@@ -1,0 +1,31 @@
+:root {
+  --primary__color: #22d18b;
+  --secondary__color: #434f4a;
+  --accent__color: #1fbf62;
+  --main__gradient: linear-gradient(
+    180deg,
+    rgba(34, 209, 139, 1) 0%,
+    rgba(31, 191, 98, 1) 100%
+  );
+
+  --text__color: #f9f9f9;
+  --bg__color: #212322;
+  --input__bg__color: #303633;
+  --bg__gradient__color: linear-gradient(135deg, #272928, #212322);
+  --switch__image__url: url(./images/white_wings.png);
+  --switch__image__bg__color: #161616;
+  --skill__icon__color: rgba(0, 0, 0, 0.6);
+  --box-shadow: rgba(0, 0, 0, 0.4) 0px 10px 10px -10px;
+}
+
+[data-theme-background="light"] {
+  --secondary__color: #cff6eb;
+  --bg__color: #dbfff3;
+  --input__bg__color: #ffffff;
+  --bg__gradient__color: linear-gradient(135deg, #ecfdf7, #ddfff2);
+  --text__color: #212322;
+  --switch__image__bg__color: #d5feee;
+  --switch__image__url: url(./images/black_wings.png);
+  --skill__icon__color: rgba(255, 255, 255, 0.6);
+  --box-shadow: rgba(185, 204, 192, 0.4) 0px 10px 10px -10px;
+}

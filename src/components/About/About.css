@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+
+.About {
+  overflow: hidden;
+}
+
+.heading {
+  margin-bottom: 1.5rem;
+  font-size: 35px;
+  font-weight: 800;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Montserrat, sans-serif;
+  text-transform: uppercase;
+}
+
+.heart__icon {
+  margin: 0 1.5rem;
+  color: var(--primary__color);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 33.333333333% 33.333333333% 33.333333333%;
+  margin: 0 3rem;
+  margin-bottom: 10rem;
+}
+
+.card {
+  background: var(--bg__gradient__color);
+  height: 20rem;
+  width: auto;
+  margin: 1rem;
+  border-radius: 20px;
+}
+
+.love__icon__container {
+  width: 7rem;
+  height: 7rem;
+  background: var(--main__gradient);
+  margin: 2rem auto;
+  border-radius: 50%;
+  position: relative;
+}
+
+.love__icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  color: #fff;
+}
+
+.love__text {
+  padding: 0 2rem;
+  text-align: center;
+  font-size: 17px;
+}
+
+.about__me {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 10rem;
+}
+
+.main__image__text {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  font-size: 1.2rem;
+  font-family: Karla, sans-serif;
+  text-align: justify;
+  background: var(--bg__gradient__color);
+  padding: 3rem;
+  padding-right: 4rem;
+  border-radius: 20px;
+  z-index: 0;
+}
+
+.my__image {
+  margin-left: -1.5rem;
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+  z-index: 1;
+  border: 10px solid var(--primary__color);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .cards {
+    grid-template-columns: 100%;
+  }
+
+  .card {
+    height: 18rem;
+  }
+
+  .about__me {
+    width: 80%;
+  }
+
+  .main__image__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .my__image {
+    margin-left: 0;
+    border-radius: 20px;
+    z-index: 1;
+    border: 10px solid var(--primary__color);
+  }
+
+  .text {
+    margin-top: -2rem;
+    font-size: 1.1rem;
+    padding: 3rem;
+    padding-top: 4rem;
+    text-align: left;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .cards {
+    grid-template-columns: 100%;
+  }
+
+  .card {
+    height: 18rem;
+  }
+
+  .about__me {
+    width: 80%;
+  }
+
+  .main__image__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .my__image {
+    margin-left: 0;
+    border-radius: 20px;
+    z-index: 1;
+    border: 10px solid var(--primary__color);
+  }
+
+  .text {
+    margin-top: -2rem;
+    font-size: 1.2rem;
+    padding: 3rem;
+    padding-top: 4rem;
+    text-align: left;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .card {
+    height: 17rem;
+    width: 70%;
+    margin: 2rem auto;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .cards {
+    grid-template-columns: 33.333333333% 33.333333333% 33.333333333%;
+  }
+
+  .card {
+    height: 20rem;
+    width: 90%;
+  }
+
+  .about__me {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+  }
+
+  .main__image__text {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text {
+    font-size: 1.2rem;
+    font-family: Karla, sans-serif;
+    text-align: justify;
+    background: var(--bg__gradient__color);
+    padding: 3rem;
+    padding-right: 4rem;
+    border-radius: 20px;
+    z-index: 0;
+  }
+
+  .my__image {
+    margin-left: -1.5rem;
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    z-index: 1;
+    border: 10px solid var(--primary__color);
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .card {
+    height: 18rem;
+    width: 70%;
+  }
+}
