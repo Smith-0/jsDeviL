@@ -16,7 +16,7 @@ const Projects = () => {
         <div className="image__or__iframe">
           <iframe
             src="https://mern-instagram-clone.blackdevil.in/"
-            frameborder="0"
+            frameBorder="0"
           ></iframe>
         </div>
         <div className="description">
