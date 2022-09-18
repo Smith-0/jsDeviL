@@ -104,15 +104,15 @@
 
   .intro__container {
     position: absolute;
-    top: 65%;
-    left: 35%;
-    transform: translate(-35%, -65%);
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -70%);
   }
 }
 
 @media only screen and (min-width: 600px) {
   .hero__container {
-    margin-bottom: 18rem;
+    margin-bottom: 17rem;
   }
 
   .triangle__image {

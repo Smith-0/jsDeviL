@@ -37,7 +37,9 @@
 
 .projects__section .description {
   background: var(--bg__gradient__color);
-  font-family: Karla, sans-serif;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
   line-height: 1.3;
   font-weight: 500;
   font-size: 17px;

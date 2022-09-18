@@ -7,7 +7,6 @@ import "./Contact.css";
 
 const Contact = () => {
   const form = useRef();
-  console.log(process.env.REACT_APP_PUBLIC_KEY);
 
   const sendEmail = (e) => {
     e.preventDefault();
