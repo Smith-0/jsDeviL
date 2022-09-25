@@ -42,7 +42,14 @@ const Projects = () => {
       cart , update cart , product details page and checkout using STRIPE
       etc. Feel free to check out th e full fuctionality. For payment press
       4 and 2 multiple times as test card credentials.`,
-      techUsed: ["ReactJS", "NodeJS", "Sanity", "Stripe", "reactContextAPI"],
+      techUsed: [
+        "NextJS",
+        "ReactJS",
+        "NodeJS",
+        "Sanity",
+        "Stripe",
+        "reactContext",
+      ],
       github: "https://github.com/codewithsahil/eCommerce_nextjs_sanity_stripe",
       link: "https://e-commerce-nextjs-sanity-stripe.vercel.app/",
     },
