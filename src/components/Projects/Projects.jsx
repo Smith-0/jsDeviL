@@ -29,6 +29,7 @@ const Projects = () => {
         "ExpressJS",
         "React-Redux",
         "JWT",
+        "Axios",
       ],
       github: "https://github.com/codewithsahil/mern-insta-clone",
       link: "https://mern-instagram-clone.blackdevil.in/",
@@ -107,6 +108,12 @@ const Projects = () => {
                   <>
                     <span className="tech">{tech}</span>
                     {index === 2 && (
+                      <>
+                        <br />
+                        <br />
+                      </>
+                    )}
+                    {index === 5 && (
                       <>
                         <br />
                         <br />
