@@ -32,7 +32,7 @@ const Projects = () => {
         "Axios",
       ],
       github: "https://github.com/codewithsahil/mern-insta-clone",
-      link: "https://mern-instagram-clone.blackdevil.in/",
+      link: "https://mern-social-blue.vercel.app/",
     },
     {
       title: "E-commerce",
@@ -81,7 +81,7 @@ const Projects = () => {
       functionality - Light/Dark`,
       techUsed: ["Css", "ReactJS"],
       github: "https://github.com/codewithsahil/tic-tact-toe-reactjs",
-      link: "http://tictactoe.blackdevil.in/",
+      link: "https://tic-tac-toe-reactjs-light-dark.vercel.app/",
     },
     {
       title: "PHP Social",
