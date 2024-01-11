@@ -11,7 +11,7 @@
   border-radius: 50%;
 }
 
-.row {
+.skill__row {
   position: relative;
   top: -60%;
   width: 100%;
@@ -35,12 +35,12 @@
   color: var(--primary__color) !important;
 }
 
-.row div {
+.skill__row div {
   animation: animate 80s linear infinite;
   animation-delay: -80s;
 }
 
-.row div:nth-child(2) {
+.skill__row div:nth-child(2) {
   animation: animate2 80s linear infinite;
   animation-delay: -40s;
 }
@@ -63,12 +63,12 @@
   }
 }
 
-.row:nth-child(even) div {
+.skill__row:nth-child(even) div {
   animation: animate3 80s linear infinite;
   animation-delay: -80s;
 }
 
-.row:nth-child(even) div:nth-child(2) {
+.skill__row:nth-child(even) div:nth-child(2) {
   animation: animate4 80s linear infinite;
   animation-delay: -40s;
 }

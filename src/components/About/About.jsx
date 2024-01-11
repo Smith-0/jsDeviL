@@ -16,7 +16,7 @@ const About = () => {
           <BsFillSuitHeartFill className="heart__icon" /> LOVE
         </div>
         <div className="cards">
-          <div className="card">
+          <div className="tech__card">
             <div className="love__icon__container">
               <IoLogoReact className="love__icon" />
             </div>
@@ -25,7 +25,7 @@ const About = () => {
               the reason why I'm so obsessed with frontend.
             </div>
           </div>
-          <div className="card">
+          <div className="tech__card">
             <div className="love__icon__container">
               <IoLogoJavascript className="love__icon" />
             </div>
@@ -35,7 +35,7 @@ const About = () => {
               issues/bugs/errors.
             </div>
           </div>
-          <div className="card">
+          <div className="tech__card">
             <div className="love__icon__container">
               <IoLogoNodejs className="love__icon" />
             </div>

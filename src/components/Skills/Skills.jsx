@@ -27,7 +27,7 @@ const Skills = () => {
   return (
     <div className="skills__section">
       <Element name="skills"></Element>
-      <div className="row">
+      <div className="skill__row">
         <div>
           <BiCode className="skill__icon" />
           <IoLogoHtml5 className="skill__icon" />
@@ -77,7 +77,7 @@ const Skills = () => {
           <BiCodeAlt className="skill__icon" />
         </div>
       </div>
-      <div className="row">
+      <div className="skill__row">
         <div>
           <BiCode className="skill__icon" />
           <IoLogoHtml5 className="skill__icon" />
@@ -127,7 +127,7 @@ const Skills = () => {
           <BiCodeAlt className="skill__icon" />
         </div>
       </div>
-      <div className="row">
+      <div className="skill__row">
         <div>
           <BiCode className="skill__icon" />
           <IoLogoHtml5 className="skill__icon" />
@@ -177,7 +177,7 @@ const Skills = () => {
           <BiCodeAlt className="skill__icon" />
         </div>
       </div>
-      <div className="row">
+      <div className="skill__row">
         <div>
           <BiCode className="skill__icon" />
           <IoLogoHtml5 className="skill__icon" />
@@ -227,7 +227,7 @@ const Skills = () => {
           <BiCodeAlt className="skill__icon" />
         </div>
       </div>
-      <div className="row">
+      <div className="skill__row">
         <div>
           <BiCode className="skill__icon" />
           <IoLogoHtml5 className="skill__icon" />
@@ -277,7 +277,7 @@ const Skills = () => {
           <BiCodeAlt className="skill__icon" />
         </div>
       </div>
-      <div className="row">
+      <div className="skill__row">
         <div>
           <BiCode className="skill__icon" />
           <IoLogoHtml5 className="skill__icon" />
@@ -327,7 +327,7 @@ const Skills = () => {
           <BiCodeAlt className="skill__icon" />
         </div>
       </div>
-      <div className="row">
+      <div className="skill__row">
         <div>
           <BiCode className="skill__icon" />
           <IoLogoHtml5 className="skill__icon" />
@@ -377,7 +377,7 @@ const Skills = () => {
           <BiCodeAlt className="skill__icon" />
         </div>
       </div>
-      <div className="row">
+      <div className="skill__row">
         <div>
           <BiCode className="skill__icon" />
           <IoLogoHtml5 className="skill__icon" />
@@ -427,7 +427,7 @@ const Skills = () => {
           <BiCodeAlt className="skill__icon" />
         </div>
       </div>
-      <div className="row">
+      <div className="skill__row">
         <div>
           <BiCode className="skill__icon" />
           <IoLogoHtml5 className="skill__icon" />
@@ -477,7 +477,7 @@ const Skills = () => {
           <BiCodeAlt className="skill__icon" />
         </div>
       </div>
-      <div className="row">
+      <div className="skill__row">
         <div>
           <BiCode className="skill__icon" />
           <IoLogoHtml5 className="skill__icon" />
@@ -527,7 +527,7 @@ const Skills = () => {
           <BiCodeAlt className="skill__icon" />
         </div>
       </div>
-      <div className="row">
+      <div className="skill__row">
         <div>
           <BiCode className="skill__icon" />
           <IoLogoHtml5 className="skill__icon" />
@@ -577,7 +577,7 @@ const Skills = () => {
           <BiCodeAlt className="skill__icon" />
         </div>
       </div>
-      <div className="row">
+      <div className="skill__row">
         <div>
           <BiCode className="skill__icon" />
           <IoLogoHtml5 className="skill__icon" />
@@ -627,7 +627,7 @@ const Skills = () => {
           <BiCodeAlt className="skill__icon" />
         </div>
       </div>
-      <div className="row">
+      <div className="skill__row">
         <div>
           <BiCode className="skill__icon" />
           <IoLogoHtml5 className="skill__icon" />
@@ -677,7 +677,7 @@ const Skills = () => {
           <BiCodeAlt className="skill__icon" />
         </div>
       </div>
-      <div className="row">
+      <div className="skill__row">
         <div>
           <BiCode className="skill__icon" />
           <IoLogoHtml5 className="skill__icon" />
@@ -727,7 +727,7 @@ const Skills = () => {
           <BiCodeAlt className="skill__icon" />
         </div>
       </div>
-      <div className="row">
+      <div className="skill__row">
         <div>
           <BiCode className="skill__icon" />
           <IoLogoHtml5 className="skill__icon" />
@@ -777,7 +777,7 @@ const Skills = () => {
           <BiCodeAlt className="skill__icon" />
         </div>
       </div>
-      <div className="row">
+      <div className="skill__row">
         <div>
           <BiCode className="skill__icon" />
           <IoLogoHtml5 className="skill__icon" />
