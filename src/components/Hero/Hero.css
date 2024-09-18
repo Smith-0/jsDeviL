@@ -85,7 +85,7 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .hero__container {
-    margin-bottom: 15rem;
+    margin-bottom: 8rem;
   }
 
   .triangle__image {
@@ -94,7 +94,7 @@
   }
 
   #introCode {
-    top: 25%;
+    top: 17%;
     left: 50%;
     transform: translate(-50%, -25%);
     z-index: -998;
@@ -104,7 +104,7 @@
 
   .intro__container {
     position: absolute;
-    top: 70%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -70%);
   }

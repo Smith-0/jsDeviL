@@ -29,8 +29,6 @@ const Hero = ({ theme }) => {
         <div className="text__name">SAHIL</div>
         <div className="text__two">FULL STACK DEVELOPER</div>
 
-        <br />
-        <br />
         <a className="btn" href={CV} download>
           Download Resume
         </a>
@@ -43,13 +41,13 @@ const Hero = ({ theme }) => {
           >
             <BsGithub className="social__icon" />
           </a>
-          <a
+          {/* <a
             href="https://twitter.com/SahilGhangash"
             target="_blank"
             rel="noopener noreferrer"
           >
             <BsTwitterX className="social__icon" />
-          </a>
+          </a> */}
           <a
             href="https://www.linkedin.com/in/sahil-ghangash-2917761b5/"
             target="_blank"
